@@ -27,3 +27,6 @@ le tout nouveaux noyaux en assembleur pour des système d'exploitation (et inter
 # Exécuter les commandes
 **(4)**: Exécutez **qemu-system-i386 -drive format=raw,file=bernux-3.0.img** dans MinGW 64.
 
+# compil it
+
+ **nasm -f bin kernel.asm -o kernel.bin**
